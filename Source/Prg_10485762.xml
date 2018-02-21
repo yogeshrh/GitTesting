@@ -27,12 +27,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736746" _time="51225" date="21/02/2018" time="14:13:45"/>
+          <LastModified _date="736746" _time="53297" date="21/02/2018" time="14:48:17"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
           <Columns>
-            <Column id="10485761" name="value1">
+            <Column id="10485761" name="valueB1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="100"/>
@@ -41,7 +41,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="10485762" name="value2">
+            <Column id="10485762" name="valueB2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="10"/>
@@ -51,7 +51,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="547356675" name="value3">
+            <Column id="547356675" name="valueB3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="200"/>
@@ -60,7 +60,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="547356676" name="value4">
+            <Column id="547356676" name="valueB4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -205,7 +205,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <TXT val="GitBranching Master->Branch1.1"/>
+            <TXT val="GitBranching Master->Branch1.B2"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
@@ -216,7 +216,7 @@
             </PropertyList>
             <Control _test_id="1" id="10485761">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Master-B1.1"/>
+                <Text id="19" valUnicode="Master-B2"/>
                 <X id="21" val="38"/>
                 <Y id="22" val="22"/>
                 <Width id="23" val="64"/>
@@ -231,7 +231,7 @@
                 <Y id="22" val="22"/>
                 <Width id="23" val="57"/>
                 <Height id="24" val="14"/>
-                <Format id="82" valUnicode="Master-B1.1"/>
+                <Format id="82" valUnicode="Master-B2"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
