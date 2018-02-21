@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
-
   <Header>
     <Version val="13021"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -27,12 +25,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736746" _time="53426" date="21/02/2018" time="14:50:26"/>
+          <LastModified _date="736746" _time="55667" date="21/02/2018" time="15:27:47"/>
         </Header>
-        <ItemIsn val="4"/>
+        <ItemIsn val="5"/>
         <Resource>
           <Columns>
-            <Column id="10485761" name="value13">
+            <Column id="10485761" name="valueB1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="100"/>
@@ -41,17 +39,17 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="10485762" name="value23">
+            <Column id="10485762" name="valueB2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="30"/>
+                <Picture id="157" valUnicode="10"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="30"/>
+                <_Whole id="182" val="10"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="547356675" name="value33">
+            <Column id="547356675" name="valueB3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="200"/>
@@ -60,12 +58,12 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="547356676" name="value43">
+            <Column id="547356676" name="valueB4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="30"/>
+                <Picture id="157" valUnicode="20"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="30"/>
+                <_Whole id="182" val="20"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -195,30 +193,6 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="10485763" propagate="78">
-            <Level val="K"/>
-            <Scope val="S"/>
-            <EngineDirective val="S"/>
-            <ShowMessage val="Y"/>
-            <Condition val="89"/>
-            <Event>
-              <EventType val="S"/>
-              <PublicObject comp="-1"/>
-            </Event>
-            <TXT val="GitBranching Master->Branch1.3"/>
-          </LogicUnit>
-          <LogicUnit id="748683268" propagate="78">
-            <Level val="K"/>
-            <Scope val="S"/>
-            <EngineDirective val="S"/>
-            <ShowMessage val="Y"/>
-            <Condition val="89"/>
-            <Event>
-              <EventType val="S"/>
-              <PublicObject comp="-1"/>
-            </Event>
-            <TXT val="Ending Branch 1.3"/>
-          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="2" _last_test_id="2" id="1">
@@ -228,7 +202,7 @@
             </PropertyList>
             <Control _test_id="1" id="10485761">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Master-B1.3"/>
+                <Text id="19" valUnicode="Master-B2"/>
                 <X id="21" val="38"/>
                 <Y id="22" val="22"/>
                 <Width id="23" val="64"/>
@@ -243,7 +217,7 @@
                 <Y id="22" val="22"/>
                 <Width id="23" val="57"/>
                 <Height id="24" val="14"/>
-                <Format id="82" valUnicode="Master-B1.3"/>
+                <Format id="82" valUnicode="Master-B2"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -252,5 +226,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
