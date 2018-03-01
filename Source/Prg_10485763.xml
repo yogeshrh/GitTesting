@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="10485763">
+        <Header Description="m1" ISN_2="1" LastIsn="1" id="10485763">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -22,12 +22,13 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="O"/>
+          <TaskType val="C"/>
+          <Interactive val="Y"/>
           <External val="N"/>
           <Offline val="N"/>
-          <FormType val="N"/>
+          <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="736754" _time="54622" date="01/03/2018" time="15:10:22"/>
         </Header>
         <Resource>
           <Columns/>
@@ -36,7 +37,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -71,8 +72,8 @@
             <AllowRange val="Y"/>
             <AllowIndexChange val="Y"/>
             <AllowSorting val="Y"/>
-            <AllowIOFiles val="Y"/>
-            <RecordCycle val="Y"/>
+            <AllowIOFiles val="N"/>
+            <TabbingCycle val="R"/>
             <AllowEvents val="Y"/>
             <AllowIndexOptimization val="Y"/>
             <AllowLocationInQuery val="Y"/>
@@ -101,6 +102,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
                 <DATAVIEW_SRC FlowIsn="10485761" Type="M">
@@ -114,9 +116,9 @@
         </TaskLogic>
         <TaskForms>
           <FormEntry id="1">
-            <PropertyList model="FORM_GUI0">
+            <PropertyList model="FORM_RICH_CLIENT">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="m1"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
