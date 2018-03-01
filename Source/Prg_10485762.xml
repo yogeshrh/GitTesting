@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
+
   <Header>
     <Version val="13021"/>
     <WithIsn val="Y"/>
@@ -8,6 +9,7 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
+
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -25,47 +27,56 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736746" _time="56657" date="21/02/2018" time="15:44:17"/>
+          <LastModified _date="736747" _time="51394" date="22/02/2018" time="14:16:34"/>
         </Header>
-        <ItemIsn val="6"/>
+        <ItemIsn val="7"/>
         <Resource>
           <Columns>
-            <Column id="10485761" name="value13">
+            <Column id="10485761" name="value1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="250"/>
+                <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="250"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="10485762" name="value23">
+            <Column id="10485762" name="value2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="25"/>
+                <Picture id="157" valUnicode="10"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="25"/>
+                <_Whole id="182" val="10"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="547356675" name="value33">
+            <Column id="547356675" name="value3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="250"/>
+                <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="250"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="547356676" name="value43">
+            <Column id="547356676" name="value4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="25"/>
+                <Picture id="157" valUnicode="10"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="25"/>
+                <_Whole id="182" val="10"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="10485765" name="value5">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="35"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="35"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -191,7 +202,30 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="10485767" FlowIsn="10485767" id="10485767">
+                  <Column val="10485765"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="10485763" propagate="78">
+            <Level val="K"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="Changes in bug_fix_1 branch"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
@@ -202,22 +236,24 @@
             </PropertyList>
             <Control _test_id="1" id="10485761">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Master-B1.25"/>
+                <Text id="19" valUnicode="Label-BF1"/>
                 <X id="21" val="38"/>
                 <Y id="22" val="22"/>
                 <Width id="23" val="64"/>
                 <Height id="24" val="18"/>
+                <Font id="50" val="2"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="2" id="10485762">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="141"/>
-                <Y id="22" val="22"/>
-                <Width id="23" val="57"/>
+                <X id="21" val="134"/>
+                <Y id="22" val="26"/>
+                <Width id="23" val="86"/>
                 <Height id="24" val="14"/>
-                <Format id="82" valUnicode="Master-B1.25"/>
+                <Font id="50" val="5"/>
+                <Format id="82" valUnicode="Button-BF1"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -226,4 +262,5 @@
       </Task>
     </Programs>
   </ProgramsRepository>
+
 </Application>
