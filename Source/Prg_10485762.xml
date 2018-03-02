@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736755" _time="51681" date="02/03/2018" time="14:21:21"/>
+          <LastModified _date="736755" _time="54424" date="02/03/2018" time="15:07:04"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -73,9 +73,9 @@
             <Column id="10485765" name="value5">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="35"/>
+                <Picture id="157" valUnicode="15"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="35"/>
+                <Size id="174" val="15"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -225,7 +225,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <TXT val="Changes in bug_fix_1.1 branch"/>
+            <TXT val="Changes in bug_fix_1.2 branch"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
