@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736747" _time="51394" date="22/02/2018" time="14:16:34"/>
+          <LastModified _date="736755" _time="51681" date="02/03/2018" time="14:21:21"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -225,7 +225,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <TXT val="Changes in bug_fix_1 branch"/>
+            <TXT val="Changes in bug_fix_1.1 branch"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
@@ -236,7 +236,7 @@
             </PropertyList>
             <Control _test_id="1" id="10485761">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Label-BF1"/>
+                <Text id="19" valUnicode="Label-B1"/>
                 <X id="21" val="38"/>
                 <Y id="22" val="22"/>
                 <Width id="23" val="64"/>
@@ -253,7 +253,7 @@
                 <Width id="23" val="86"/>
                 <Height id="24" val="14"/>
                 <Font id="50" val="5"/>
-                <Format id="82" valUnicode="Button-BF1"/>
+                <Format id="82" valUnicode="Button-B1"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
