@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736755" _time="54402" date="02/03/2018" time="15:06:42"/>
+          <LastModified _date="736755" _time="55964" date="02/03/2018" time="15:32:44"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -36,18 +36,18 @@
             <Column id="10485761" name="val1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="200"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="10485762" name="val2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
+                <Picture id="157" valUnicode="20"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
+                <_Whole id="182" val="20"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -166,7 +166,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <TXT val="new comment for m1"/>
+            <TXT val="new comment for m1.2"/>
             <ExecuteOn_ val="O"/>
           </LogicUnit>
         </TaskLogic>

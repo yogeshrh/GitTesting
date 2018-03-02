@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736755" _time="54424" date="02/03/2018" time="15:07:04"/>
+          <LastModified _date="736755" _time="55933" date="02/03/2018" time="15:32:13"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -35,18 +35,18 @@
             <Column id="10485761" name="value1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="200"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="10485762" name="value2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
+                <Picture id="157" valUnicode="20"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
+                <_Whole id="182" val="20"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -54,18 +54,18 @@
             <Column id="547356675" name="value3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="200"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="547356676" name="value4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
+                <Picture id="157" valUnicode="20"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
+                <_Whole id="182" val="20"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -73,9 +73,9 @@
             <Column id="10485765" name="value5">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="15"/>
+                <Picture id="157" valUnicode="25"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="15"/>
+                <Size id="174" val="25"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -225,7 +225,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <TXT val="Changes in bug_fix_1.2 branch"/>
+            <TXT val="Changes in bug_fix_1.3 branch"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
@@ -236,7 +236,7 @@
             </PropertyList>
             <Control _test_id="1" id="10485761">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Label-B1"/>
+                <Text id="19" valUnicode="Label-B2"/>
                 <X id="21" val="38"/>
                 <Y id="22" val="22"/>
                 <Width id="23" val="64"/>
@@ -253,7 +253,7 @@
                 <Width id="23" val="86"/>
                 <Height id="24" val="14"/>
                 <Font id="50" val="5"/>
-                <Format id="82" valUnicode="Button-B1"/>
+                <Format id="82" valUnicode="Button-B2"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
